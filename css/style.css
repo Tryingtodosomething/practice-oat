@@ -26,7 +26,7 @@ body {
     }
     /* social links styling */
 .soclinks {
-    position: absolute;
+    position: fixed;
     border-radius: 1 10px 10px 0;
     margin-top: -60px;
     top: 35%;
