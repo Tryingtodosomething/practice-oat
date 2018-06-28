@@ -4,7 +4,7 @@
     src: url("../fonts/Lato-regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal;
-     }*/
+     }
 @font-face  {
     font-family: "Dosis-Bold";
     src: url("../fonts/Dosis-Bold.ttf") format("truetype");
@@ -28,13 +28,14 @@ body {
 .soclinks {
     position: fixed;
     border-radius: 1 10px 10px 0;
+    margin-left: -8px;
     margin-top: -60px;
     top: 35%;
     background-color: #45124c;
 }
 .soclinks ul {
     margin: 0;
-    padding: 8px;
+    padding: 10px;
 }
 .soclinks li {
     list-style-type: none;
@@ -64,4 +65,38 @@ body {
     margin-top: 170px;
     text-align: center;
 }
+    /*cta rectangle styling*/
+.call-to-action-rectangle {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    }
+.ctabtn {
+    display: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #894693;
+    padding: 15px 25px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    transition: 0.8s;
+}
+.ctabtn-outline {
+    display: inherit;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+    padding: 10px 15px;
+    border: 0.7px solid #81398b;
+}
+.ctabtn:hover {
+    background-color: #c665d3;
+}
+.ctabtn:active {
+    background-color: #974ba1;
+}
+.ctabtn-outline i {
+    padding-left: 15px;
+}
+
 
